@@ -24,7 +24,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # 1. Clone mirror repo from IHEP GitLab
-          git clone --mirror "https://oauth2:${GITLAB_TOKEN}@code.ihep.ac.cn/albert_chg9/heris.git" repo.git
+          git clone --mirror "https://oauth2:${GITLAB_TOKEN}@code.ihep.ac.cn/heris/heris.git" repo.git
 
           cd repo.git
 
