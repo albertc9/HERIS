@@ -11,7 +11,7 @@
 ```
 > *Happy Halloween!* 🎃
 
-> 2025 Albert Lee-Khai Cheung, IHEP, MIT LICENSE
+> 2025 HERIS GROUP, IHEP, MIT LICENSE
 > albert.cheung@cernNOSPAMPLEASE.ch
 
 # **WELCOME TO HERIS!**
