@@ -3,40 +3,40 @@ packages:
     revision: 19eeef8cae1cbec7413877b3f29fe0bd078748d7
     version: 0.0.2
     source:
-      Git: https://github.com/pulp-platform/adv_dbg_if.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/adv_dbg_if.git
     dependencies: []
   apb:
     revision: 77ddf073f194d44b9119949d2421be59789e69ae
     version: 0.2.4
     source:
-      Git: git@code.ihep.ac.cn:heris/apb.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/apb.git
     dependencies:
     - common_cells
   apb2per:
     revision: 6fc13fc0bfa71772d91391893e57306d0d95befa
     version: 0.1.0
     source:
-      Git: https://github.com/pulp-platform/apb2per.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/apb2per.git
     dependencies: []
   apb_adv_timer:
     revision: c8faec1e1755386d0e0f31a55ebd80612a3dcea9
     version: 1.0.4
     source:
-      Git: https://github.com/pulp-platform/apb_adv_timer.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/apb_adv_timer.git
     dependencies:
     - tech_cells_generic
   apb_fll_if:
     revision: ce34d65007e05da1f788fcdf7cc1849b5aedaf67
     version: 0.2.1
     source:
-      Git: git@code.ihep.ac.cn:heris/apb_fll_if.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/apb_fll_if.git
     dependencies:
     - apb
   apb_interrupt_cntrl:
     revision: 8faeac71f89bca19e5daa14ebac99a81ceb85593
     version: 0.2.0
     source:
-      Git: https://github.com/pulp-platform/apb_interrupt_cntrl.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/apb_interrupt_cntrl.git
     dependencies:
     - apb
     - common_cells
@@ -44,7 +44,7 @@ packages:
     revision: 78831b6feba265d5ee2683bbf42b4150f8a35c43
     version: 0.39.8
     source:
-      Git: https://github.com/pulp-platform/axi.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/axi.git
     dependencies:
     - common_cells
     - common_verification
@@ -53,14 +53,14 @@ packages:
     revision: 2967d8d17be0a6139229ca8d3d4956e182aec3de
     version: 1.3.0
     source:
-      Git: https://github.com/pulp-platform/cluster_interconnect.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/cluster_interconnect.git
     dependencies:
     - common_cells
   common_cells:
     revision: 9afda9abb565971649c2aa0985639c096f351171
     version: 1.38.0
     source:
-      Git: git@code.ihep.ac.cn:heris/common_cells.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/common_cells.git
     dependencies:
     - common_verification
     - tech_cells_generic
@@ -68,13 +68,13 @@ packages:
     revision: fb1885f48ea46164a10568aeff51884389f67ae3
     version: 0.2.5
     source:
-      Git: https://github.com/pulp-platform/common_verification.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/common_verification.git
     dependencies: []
   cv32e40p:
     revision: 7a49867b2232d97344cde1b8a1e05bcb38634894
     version: null
     source:
-      Git: https://github.com/pulp-platform/cv32e40p.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/cv32e40p.git
     dependencies:
     - common_cells
     - fpnew
@@ -83,7 +83,7 @@ packages:
     revision: a8e0cba6dd50f357ece73c2c955d96efc3c6c315
     version: null
     source:
-      Git: https://github.com/pulp-platform/cvfpu.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/cvfpu.git
     dependencies:
     - common_cells
     - fpu_div_sqrt_mvp
@@ -91,14 +91,14 @@ packages:
     revision: 86e1f558b3c95e91577c41b2fc452c86b04e85ac
     version: 1.0.4
     source:
-      Git: https://github.com/pulp-platform/fpu_div_sqrt_mvp.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/fpu_div_sqrt_mvp.git
     dependencies:
     - common_cells
   generic_fll:
     revision: 1c92dc73a940392182fd4cb7b86f35649b349595
     version: 0.2.0
     source:
-      Git: git@code.ihep.ac.cn:heris/generic_FLL.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/generic_FLL.git
     dependencies: []
   gpio:
     revision: null
@@ -116,14 +116,14 @@ packages:
     revision: 1916c72f024175f1fe351acc3db3c6e9925a117d
     version: 1.7.3
     source:
-      Git: https://github.com/pulp-platform/hwpe-ctrl.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/hwpe-ctrl.git
     dependencies:
     - tech_cells_generic
   hwpe-mac-engine:
     revision: cd48c574f1972ecbe02d3f463a0e12a92acde484
     version: 1.3.3
     source:
-      Git: https://github.com/pulp-platform/hwpe-mac-engine.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/hwpe-mac-engine.git
     dependencies:
     - hwpe-ctrl
     - hwpe-stream
@@ -131,27 +131,27 @@ packages:
     revision: c1e25094bf9f2fee754611ef7491b7a1144e11b9
     version: 1.9.1
     source:
-      Git: https://github.com/pulp-platform/hwpe-stream.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/hwpe-stream.git
     dependencies:
     - tech_cells_generic
   ibex:
     revision: b18f7ef178ed07f5085051f96042c670a919fd5c
     version: null
     source:
-      Git: https://github.com/pulp-platform/ibex.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/ibex.git
     dependencies:
     - tech_cells_generic
   jtag_pulp:
     revision: d22e828aef0484c79355d97d12de044c97e1f20f
     version: 0.2.0
     source:
-      Git: git@code.ihep.ac.cn:heris/jtag_pulp.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/jtag_pulp.git
     dependencies: []
   pulp_io:
     revision: da6f8817b667f17973ecb19cb1e7aa4347108716
     version: 0.1.0
     source:
-      Git: https://github.com/pulp-platform/pulp-io.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/pulp-io.git
     dependencies:
     - apb
     - common_cells
@@ -169,7 +169,7 @@ packages:
     revision: bf65372aab4edd404160170e2a4d2c63b27ab5f2
     version: 5.0.1
     source:
-      Git: git@code.ihep.ac.cn:heris/pulp_soc.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/pulp_soc.git
     dependencies:
     - adv_dbg_if
     - apb
@@ -216,7 +216,7 @@ packages:
     revision: 8e8c209ea559d3b54f45cf30fcce95ce70ff5e49
     version: 0.4.6
     source:
-      Git: git@code.ihep.ac.cn:heris/register_interface.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/register_interface.git
     dependencies:
     - apb
     - axi
@@ -226,7 +226,7 @@ packages:
     revision: 69be5ddc03ea1688c0eab47d6ed9d0e8725beda1
     version: 0.5.1
     source:
-      Git: https://github.com/pulp-platform/riscv-dbg.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/riscv-dbg.git
     dependencies:
     - common_cells
     - tech_cells_generic
@@ -234,33 +234,33 @@ packages:
     revision: 472f99affe44ff7b282b519c047a3cfeb35b16c6
     version: 1.2.0
     source:
-      Git: https://github.com/pulp-platform/scm.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/scm.git
     dependencies:
     - tech_cells_generic
   tbtools:
     revision: 4bc2c825df8540a0c0210ab7f484533809801fa2
     version: 0.2.1
     source:
-      Git: git@code.ihep.ac.cn:heris/tbtools.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/tbtools.git
     dependencies: []
   tech_cells_generic:
     revision: a9cae21902e75b1434328ecf36f85327ba5717de
     version: 0.2.11
     source:
-      Git: git@code.ihep.ac.cn:heris/tech_cells_generic.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/tech_cells_generic.git
     dependencies:
     - common_verification
   timer_unit:
     revision: 4c69615c89db9397a9747d6f6d6a36727854f0bc
     version: 1.0.3
     source:
-      Git: https://github.com/pulp-platform/timer_unit.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/timer_unit.git
     dependencies: []
   udma_camera:
     revision: cb4dc897125c823e646f65a9d155e832c763b29d
     version: 2.0.0
     source:
-      Git: https://github.com/pulp-platform/udma_camera.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/udma_camera.git
     dependencies:
     - tech_cells_generic
     - udma_core
@@ -268,7 +268,7 @@ packages:
     revision: 32bcc4f7472c3eeb8ef04612deb9088ffce7eb59
     version: 2.0.0
     source:
-      Git: https://github.com/pulp-platform/udma_core.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/udma_core.git
     dependencies:
     - common_cells
     - tech_cells_generic
@@ -276,14 +276,14 @@ packages:
     revision: b346c42543fbff5f4146eb8d56c7cb3dd55b19f4
     version: 2.0.0
     source:
-      Git: https://github.com/pulp-platform/udma_filter.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/udma_filter.git
     dependencies:
     - udma_core
   udma_hyper:
     revision: bd41ed10f94621a13ff02bdd631bf64c838a10d4
     version: 0.1.0
     source:
-      Git: https://github.com/pulp-platform/udma_hyper.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/udma_hyper.git
     dependencies:
     - tech_cells_generic
     - udma_core
@@ -291,14 +291,14 @@ packages:
     revision: d0852881b90b9bf10d51409def6d9abf58d46b6a
     version: 3.0.0
     source:
-      Git: https://github.com/pulp-platform/udma_i2c.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/udma_i2c.git
     dependencies:
     - udma_core
   udma_i2s:
     revision: aa3e698a56824493da3b9334f7236cc7f85699de
     version: 2.0.0
     source:
-      Git: https://github.com/pulp-platform/udma_i2s.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/udma_i2s.git
     dependencies:
     - common_cells
     - tech_cells_generic
@@ -307,7 +307,7 @@ packages:
     revision: 505b9d37ba7666962450ea8a45d6abb7b1c4fc03
     version: 2.0.0
     source:
-      Git: https://github.com/pulp-platform/udma_qspi.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/udma_qspi.git
     dependencies:
     - common_cells
     - tech_cells_generic
@@ -316,7 +316,7 @@ packages:
     revision: 892ac6f17bb9ad6ad223e27b75809c8163a71900
     version: 2.0.0
     source:
-      Git: https://github.com/pulp-platform/udma_sdio.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/udma_sdio.git
     dependencies:
     - common_cells
     - tech_cells_generic
@@ -325,7 +325,7 @@ packages:
     revision: 15d36f5f1d4459da3fa458a1af3334f1a8447058
     version: 2.0.0
     source:
-      Git: https://github.com/pulp-platform/udma_uart.git
+      Git: git@code.ihep.ac.cn:heris/heris-platform/udma_uart.git
     dependencies:
     - common_cells
     - udma_core
