@@ -9,7 +9,7 @@ packages:
     revision: 77ddf073f194d44b9119949d2421be59789e69ae
     version: 0.2.4
     source:
-      Git: git@code.ihep.ac.cn:heris/apb.git
+      Git: https://github.com/pulp-platform/apb.git
     dependencies:
     - common_cells
   apb2per:
@@ -29,7 +29,7 @@ packages:
     revision: ce34d65007e05da1f788fcdf7cc1849b5aedaf67
     version: 0.2.1
     source:
-      Git: git@code.ihep.ac.cn:heris/apb_fll_if.git
+      Git: https://github.com/pulp-platform/apb_fll_if.git
     dependencies:
     - apb
   apb_interrupt_cntrl:
@@ -60,7 +60,7 @@ packages:
     revision: 9afda9abb565971649c2aa0985639c096f351171
     version: 1.38.0
     source:
-      Git: git@code.ihep.ac.cn:heris/common_cells.git
+      Git: https://github.com/pulp-platform/common_cells.git
     dependencies:
     - common_verification
     - tech_cells_generic
@@ -98,7 +98,7 @@ packages:
     revision: 1c92dc73a940392182fd4cb7b86f35649b349595
     version: 0.2.0
     source:
-      Git: git@code.ihep.ac.cn:heris/generic_FLL.git
+      Git: https://github.com/pulp-platform/generic_FLL.git
     dependencies: []
   gpio:
     revision: null
@@ -145,7 +145,7 @@ packages:
     revision: d22e828aef0484c79355d97d12de044c97e1f20f
     version: 0.2.0
     source:
-      Git: git@code.ihep.ac.cn:heris/jtag_pulp.git
+      Git: https://github.com/pulp-platform/jtag_pulp.git
     dependencies: []
   pulp_io:
     revision: da6f8817b667f17973ecb19cb1e7aa4347108716
@@ -169,7 +169,7 @@ packages:
     revision: bf65372aab4edd404160170e2a4d2c63b27ab5f2
     version: 5.0.1
     source:
-      Git: git@code.ihep.ac.cn:heris/pulp_soc.git
+      Git: https://github.com/pulp-platform/pulp_soc.git
     dependencies:
     - adv_dbg_if
     - apb
@@ -216,7 +216,7 @@ packages:
     revision: 8e8c209ea559d3b54f45cf30fcce95ce70ff5e49
     version: 0.4.6
     source:
-      Git: git@code.ihep.ac.cn:heris/register_interface.git
+      Git: https://github.com/pulp-platform/register_interface.git
     dependencies:
     - apb
     - axi
@@ -241,13 +241,13 @@ packages:
     revision: 4bc2c825df8540a0c0210ab7f484533809801fa2
     version: 0.2.1
     source:
-      Git: git@code.ihep.ac.cn:heris/tbtools.git
+      Git: https://github.com/pulp-platform/tbtools.git
     dependencies: []
   tech_cells_generic:
     revision: a9cae21902e75b1434328ecf36f85327ba5717de
     version: 0.2.11
     source:
-      Git: git@code.ihep.ac.cn:heris/tech_cells_generic.git
+      Git: https://github.com/pulp-platform/tech_cells_generic.git
     dependencies:
     - common_verification
   timer_unit:

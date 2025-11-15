@@ -13,17 +13,17 @@ package:
     - "Luca Valente <luca.valente2@unibo.it>"
 
 dependencies:
-  common_cells:                { git: "git@code.ihep.ac.cn:heris/common_cells.git",       version: 1.21.0 }
-  apb:                         { git: "git@code.ihep.ac.cn:heris/apb.git",                version: 0.2.4 }
-  jtag_pulp:                   { git: "git@code.ihep.ac.cn:heris/jtag_pulp.git",          version: 0.2.0 }
-  pulp_soc:                    { git: "git@code.ihep.ac.cn:heris/pulp_soc.git",           version: 5.0.1 }
-  tbtools:                     { git: "git@code.ihep.ac.cn:heris/tbtools.git",            version: 0.2.1 }
-  tech_cells_generic:          { git: "git@code.ihep.ac.cn:heris/tech_cells_generic.git", version: 0.2.3 }
+  common_cells:                { git: "https://github.com/pulp-platform/common_cells.git",       version: 1.21.0 }
+  apb:                         { git: "https://github.com/pulp-platform/apb.git",                version: 0.2.4 }
+  jtag_pulp:                   { git: "https://github.com/pulp-platform/jtag_pulp.git",          version: 0.2.0 }
+  pulp_soc:                    { git: "https://github.com/pulp-platform/pulp_soc.git",           version: 5.0.1 }
+  tbtools:                     { git: "https://github.com/pulp-platform/tbtools.git",            version: 0.2.1 }
+  tech_cells_generic:          { git: "https://github.com/pulp-platform/tech_cells_generic.git", version: 0.2.3 }
   pulpissimo_padframe_rtl_sim: { path: "hw/padframe/pulpissimo_padframe_rtl_sim_autogen" }
   pulpissimo_padframe_fpga:    { path: "hw/padframe/pulpissimo_padframe_fpga_autogen" }
-  register_interface:          { git: "git@code.ihep.ac.cn:heris/register_interface.git", version: 0.4.1 }
-  generic_FLL:                 { git: "git@code.ihep.ac.cn:heris/generic_FLL.git",        version: 0.2.0 }
-  apb_fll_if:                  { git: "git@code.ihep.ac.cn:heris/apb_fll_if.git",         version: 0.2.1 }
+  register_interface:          { git: "https://github.com/pulp-platform/register_interface.git", version: 0.4.1 }
+  generic_FLL:                 { git: "https://github.com/pulp-platform/generic_FLL.git",        version: 0.2.0 }
+  apb_fll_if:                  { git: "https://github.com/pulp-platform/apb_fll_if.git",         version: 0.2.1 }
 
 
   # Target Specific Dependencies
@@ -85,5 +85,5 @@ vendor_package:
   # dependency but actually need a modifyable copy in the source tree.
   - name: gpio
     target_dir: hw/vendored_ips/gpio
-    upstream: { git: "git@code.ihep.ac.cn:heris/gpio.git", rev: "7f5e7b50a3d275fcbdae156ed14b7236ad5d7c0b"}
+    upstream: { git: "https://github.com/pulp-platform/gpio.git", rev: "7f5e7b50a3d275fcbdae156ed14b7236ad5d7c0b"}
     patch_dir: hw/vendored_ips/patches/gpio
