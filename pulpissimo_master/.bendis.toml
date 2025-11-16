@@ -1,0 +1,11 @@
+# Bendis Configuration File
+#
+# This file controls the behavior of bendis (Bender Integration System)
+
+# Silent mode: suppress bender output during cache preparation
+# 1 = on (default), 0 = off
+silent_mode = 1
+
+# Storage saving mode: clean up .bendis/.bender/ after update
+# 0 = off (default, keep cache), 1 = on (delete entire .bendis/.bender/)
+storage_saving_mode = 0
