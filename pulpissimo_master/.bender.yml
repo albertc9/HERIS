@@ -1,6 +1,6 @@
 overrides:
   gpio:                 { path: "hw/vendored_ips/gpio"                                              }
-  adv_dbg_if:           { git: "git@code.ihep.ac.cn:heris/heris-platform/adv_dbg_if.git",           version: 0.0.2 }
+  adv_dbg_if:           { git: "git@code.ihep.ac.cn:heris/heris-platform/adv_dbg_if.git",           version: 0.0.5 }
   apb2per:              { git: "git@code.ihep.ac.cn:heris/heris-platform/apb2per.git",              version: 0.1.0 }
   apb_adv_timer:        { git: "git@code.ihep.ac.cn:heris/heris-platform/apb_adv_timer.git",        version: 1.0.4 }
   apb_interrupt_cntrl:  { git: "git@code.ihep.ac.cn:heris/heris-platform/apb_interrupt_cntrl.git",  version: 0.2.0 }
