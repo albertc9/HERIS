@@ -1,4 +1,3 @@
-Passing through to bender: script vivado -t vivado
 # This script was generated automatically by bender.
 set ROOT "/home/work1/Works/heris/pulpissimo_master"
 add_files -norecurse -fileset [current_fileset] [list \

@@ -1,0 +1,25 @@
+
+# Vivado project directories
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+*.gen/
+*.Xil/
+
+# Vivado project misc
+*.jou
+*.log
+*.str
+*.rpt
+*.html
+*.zip
+*.wdb
+
+# Bitstreams & export files (keep them only in a separate release folder if needed)
+*.bit
+*.bin
+*.mcs
+*.xsa
+*.xpr.lock
