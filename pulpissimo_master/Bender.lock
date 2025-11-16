@@ -166,8 +166,8 @@ packages:
     - udma_sdio
     - udma_uart
   pulp_soc:
-    revision: bf65372aab4edd404160170e2a4d2c63b27ab5f2
-    version: 5.0.1
+    revision: 65b6a4ff850b34a9c26acb88785181abf4d17677
+    version: 7.0.0
     source:
       Git: git@code.ihep.ac.cn:heris/heris-platform/pulp_soc.git
     dependencies:
