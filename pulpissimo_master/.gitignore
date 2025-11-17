@@ -3,7 +3,7 @@ xcelium.d/
 xrun.history
 xrun.log
 .bender
-.bendis
+.bendis/.bender
 /utils/bin/bender
 work/
 compile.tcl
