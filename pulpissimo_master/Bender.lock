@@ -1,7 +1,7 @@
 packages:
   adv_dbg_if:
-    revision: c4d7aa177ef96b0fdff8748f81bd15489446c95a
-    version: 0.0.5
+    revision: 1292cf9d7c588eda967858092a751701e32e4df7
+    version: 2.0.2
     source:
       Git: git@code.ihep.ac.cn:heris/heris-platform/adv_dbg_if.git
     dependencies: []
@@ -166,8 +166,8 @@ packages:
     - udma_sdio
     - udma_uart
   pulp_soc:
-    revision: 65b6a4ff850b34a9c26acb88785181abf4d17677
-    version: 7.0.0
+    revision: 75bfde198322d5e3e75a72de026095bc3f479be9
+    version: 7.0.2
     source:
       Git: git@code.ihep.ac.cn:heris/heris-platform/pulp_soc.git
     dependencies:

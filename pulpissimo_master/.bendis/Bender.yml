@@ -16,7 +16,7 @@ dependencies:
   common_cells:                { git: "git@code.ihep.ac.cn:heris/heris-platform/common_cells.git",       version: 1.21.0 }
   apb:                         { git: "git@code.ihep.ac.cn:heris/heris-platform/apb.git",                version: 0.2.4 }
   jtag_pulp:                   { git: "git@code.ihep.ac.cn:heris/heris-platform/jtag_pulp.git",          version: 0.2.0 }
-  pulp_soc:                    { git: "git@code.ihep.ac.cn:heris/heris-platform/pulp_soc.git",           version: 7.0.1 }
+  pulp_soc:                    { git: "git@code.ihep.ac.cn:heris/heris-platform/pulp_soc.git",           version: 7.0.2 }
   tbtools:                     { git: "git@code.ihep.ac.cn:heris/heris-platform/tbtools.git",            version: 0.2.1 }
   tech_cells_generic:          { git: "git@code.ihep.ac.cn:heris/heris-platform/tech_cells_generic.git", version: 0.2.3 }
   pulpissimo_padframe_rtl_sim: { path: "hw/padframe/pulpissimo_padframe_rtl_sim_autogen" }
