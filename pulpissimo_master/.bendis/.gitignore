@@ -1,6 +1,10 @@
+# Auto-managed by bendis
+# WARNING: Do not remove the entries below, they are required for proper git tracking
+# You can add your own entries after this section
 
 .bender/
 hw/
 sw/
 target/
 utils/
+
