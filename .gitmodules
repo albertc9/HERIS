@@ -1,0 +1,3 @@
+[submodule "pulpissimo"]
+	path = pulpissimo
+	url = git@code.ihep.ac.cn:heris/heris-platform/pulpissimo.git
