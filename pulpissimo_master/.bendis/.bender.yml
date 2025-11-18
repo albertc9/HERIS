@@ -1,2 +1,0 @@
-overrides:
-  gpio:                 { path: "hw/vendored_ips/gpio"                                              }
